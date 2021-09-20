@@ -1,0 +1,101 @@
+<nav></nav>
+    - represents a section of a page whose purpose is to provide navigation links.
+    - Menu, Table of Contents and indexes.
+        <nav>                                   
+            <ul>
+                <li><a></a></li>
+                <li><a></a></li>
+            </ul>
+        </nav>
+
+<header></header>
+    - represents introductory content, typically a group of introductory or navigational aids.
+    - Heading elements, logo, search form and author name.
+        <header>
+            <h1></h1>
+            <img>
+            <nav></nav>
+        </header>
+
+<main></main>
+    - represents the dominant content of the <body> of a document. Contents should be unique to the document (1 per page).
+    - consist of directly related content upon the central topic or functionality of an app.
+        <main>
+            // other tags and contents
+        </main>
+
+<article></article>
+    - represents a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable (e.g., in syndication).
+    - forum post, magazine/newspaper article, blog entry, product card, user comment, interactive widget/gadget. Typically has a heading element.
+        <article>
+            <h2></h2>
+            // contents
+        </article>
+
+<aside></aside>
+    - represents a portion of a document whose content is only indirectly related to the document's main content.
+    - frequently presented as sidebars or call-out boxes.
+        <aside>
+            <p></p>
+        </aside>
+
+<details></details>
+    - creates a disclosure widget in which information is visible only when the widget is toggled into an "open" state.
+    - A summary or label must be provided using the <summary> element.
+        <details>
+            <summary>Text</summary>
+            // contents
+        </details>
+
+<summary></summary>
+    - specifies a summary, caption, or legend for a <details> element's disclosure box.
+    - Toggles open and close state of <details> tag.
+        <details>
+            <summary>Text</summary>
+            // contents
+        </details>
+
+<address></address>
+    - indicates that the enclosed HTML provides contact information for a person or people, or for an organization.
+    - contains person's name, physical address, email, number or social media handles.
+        <address>
+            content <a></a>
+            content <a></a>
+        </address>
+
+<figure></figure>
+    - represents self-contained content, potentially with an optional caption, which is specified using the <figcaption> element.
+    - The figure, its caption, and its contents are referenced as a single unit.
+        <figure>
+            <img>
+            <figcaption></figcaption>
+        </figure>
+
+<figcaption></figcaption>
+    - represents a caption or legend describing the rest of the contents of its parent <figure> element.
+        <figure>
+            <img>
+            <figcaption></figcaption>
+        </figure>
+
+<mark></mark>
+    - represents text which is marked or highlighted for reference or notation purposes, due to the marked passage's relevance or importance in the enclosing context.
+    - placed inside blocks of text.
+        <p><mark>Text</mark></p>
+
+<time></time>
+    - represents a specific period in time. It may include the datetime attribute to translate dates into machine-readable format, allowing for better search engine results or custom features such as reminders.
+        <p><time>Text</time></p>
+
+<section></section>
+    - represents a generic standalone section of a document, which doesn't have a more specific semantic element to represent it.
+    - anything can go, alternative element to <div>(as it is only used as styling wrapper). Should have a heading element but not required.
+        <section>
+            <h2></h2>
+            // contents
+        </section>
+
+<footer></footer>
+    - represents a footer for its nearest sectioning content or sectioning root element.
+    - typically contains information about the author of the section, copyright data or links to related documents.
+        <footer>Text</footer>
